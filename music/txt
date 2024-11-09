@@ -1,0 +1,209 @@
+
+
+
+
+
+
+成功的排版lego
+
+社團活動
+
+.lego{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    padding: 50px;
+}
+
+.beach{
+    grid-row: 1/2;
+    grid-column: 1/7;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.ppkf{
+    grid-row: 2/4;
+    grid-column: 1/5;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.dance{
+    grid-row: 4/6;
+    grid-column: 1/5;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.piano{
+    grid-row: 2/6;
+    grid-column: 5/7;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+    <div class="ppkf">
+    高中:康輔社公關長
+    2021.06-2022.06
+    高二接了公關長這個幹部，負責社團的社群媒體管理、宣傳並協調校內校外的活動，
+    同時幫助社團維持良好形象以利於辦更多團康活動，
+    從一年的經驗中學會怎麼管理社群帳號(IG,FB)和如何
+    與其他社團保持友好的溝通聯繫等經營人際關係的能力。
+
+    </div>
+    <div class="dance">
+        大學:熱舞
+        2023.09-2024.01
+        作為G組(Girl-style)新生參加中原熱舞社的期末成發，認識很多跳舞很厲害的人，也因為短時間高頻率的練習跳舞能力進步了許多。
+        站在舞台上時看到底下觀眾為我們精彩的表演歡呼
+    </div>
+    <div class="piano">
+        檢定-鋼琴(獎狀)
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(一) 整體網頁架構: 請使用HTML5 中 Layout element標籤建立整體網頁之版
+面，使得個人履歷網頁中包含下列資料區塊: (15%) 
+(1) 個人基本資訊 
+(2) 個人專業與技能 
+(3) 個人經歷 
+(4) 聯絡資訊 
+個人履歷參考範例（圖片為參考用） 
+
+
+(二) 個人基本資訊 (HTML/CSS: 10% + 內容: 5%) 
+需包含以下內容: 
+(1) 個人照片 
+(2) 個人基本資料介紹(例如:個性、優缺點、個人特質、興趣….) 
+(3) 設計一句自己的標語(slogan) 或 個人經典名言 
+
+
+
+
+
+(三) 個人專業與技能 (HTML/CSS:10% + 內容:5%) 
+利用CSS呈現個人的專業技能、程式技能 
+(四) 個人經歷 (HTML/CSS:20% + 內容:15%) 
+此項目可依據個人經驗列出各時期的課程活動、社團活動、專案、工作經
+歷、其他活動等，並利用圖片和文字詳細描述。請展示下面4個項目: 
+(1) 圖片 
+裁減大小適中，且圖片須經過檔案壓縮 
+常見工具 
+(2) 活動介紹 & 活動內容 
+(3) 實際成果展示: 可連結之資訊頁面（如個人網站或網頁作品）、影片、
+照片、獎狀….等佐證資料 
+注意： 
+(1) 可依照個人經歷選擇課程、社團、專案、工作經驗，但至少包含三項。 
+(2) 每一活動之文字說明至少50字以上。 
+(五) 聯絡資訊 (HTML/CSS: 5% + 內容: 5%) 
+(1) FB、IG、LinkedIn…等連結 
+(2) Email 發信 
+(七) GitHub 設定 (10%) 
+需將網頁上傳至個人的GitHub空間中,並設定網站之網址 
+➢ 評分方式 
+1. 
+依網頁中各項目的配分來給分(如上述) 
+2. 
+每個資料區塊的評分會同時考量(1) HTML標籤的編排 (2)CSS的整體搭
+配 (3)區塊中所包含的資料內容 
+註: 網頁內容和網頁排版設計一樣重要! 
+➢ 注意事項 
+1. 
+個人履歷網頁只需1頁 
+2. 
+3. 
+網頁中需包含上述之資料區塊與指定的資料內容。資料區塊有缺少或
+是資料內容不齊全，作業都會有扣分。 
+網頁的排版設計不用太複雜，簡單的版型即可。 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+HTML 與CSS內容必須排列整齊，並做適當的縮排 
+網頁檔名命名為index.html 
+圖片需先縮減像素後再放至網頁中 
+任何檔案名稱、CSS class/id 名稱皆不可使用中文命名 
+網頁版型必須自行設計。 
+◼ 抄襲同學的網頁版型，提供檔案給他人與複製他人檔案者期中成績
+皆以0分計算。 
+◼ 套用網路現有模版者，期中成績以0分計算。 
+有利用CSS或JS做動態特效的部份, 請在網頁中加註解說明, 做為評
+分加分之參考。 
+10. 網頁中的所有檔案需建資料夾做分類，分類方式如下圖所示。(未將檔
+案分類之同學，期中成績總分會再多扣10分) 
+image
+ background.jpg
+ button.jpg
+ music
+個人網頁
+(根目錄)
+ bk_music.mp3
+ video
+ activity.mp4
+ index.html
+ style.css
+ 11. 重修的同學，請重新做一個全新的個人網頁，以用於本次課程的評
+分。 
+➢ 作業繳交 
+在截止日前繳交完整檔案至: 
+(1) i-learning 作業區 
+(2) 上傳至github，並設定好github靜態網頁連結 (可直接看到網頁內容)。需在
+google drive 表單中填寫個人github 網址(請看課程公告) 
+➢ 參考資料 
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+Github.io 
+◼ 教學 
+◼ 教學youtube 
+為什麼要在github部署履歷？ 
+學習CSS版面配置http://zh-tw.learnlayout.com/no-layout.html 
+HTML5 layout element https://www.w3schools.com/html/html_layout.asp 
+線上圖片壓縮工具 (縮減圖片像素且不影響圖片品質) 
+◼ iLoveimg https://www.iloveimg.com/zh-tw/compress-image/compress-jpg 
+◼ Image Resizer https://imageresizer.com/ 
+◼ Tinyjpg https://tinyjpg.com/ 
+網頁配色工具 
+◼ Coolors https://coolors.co/ 
+◼ PALETTABLE https://www.palettable.io/ 
+◼ Color Hunt https://colorhunt.co/ 
+免費圖庫 
+◼ Pixabay https://pixabay.com/ 
+◼ Pexels https://www.pexels.com/zh-tw/ 
+免費icon圖庫 
+◼ iconfinder https://www.iconfinder.com/ 
+◼ flaticon https://www.flaticon.com/
+
+

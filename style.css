@@ -1,0 +1,307 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family:"Noto Serif TC", serif;
+    background-color: #d1e7e5 ;
+    margin: 0;
+    padding: 0;
+}
+
+header { 
+    width: 100%;
+    height: 200px; 
+    background-image: url('image/headerzip.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+    
+nav {
+    background-color: #d1e7e5;
+    text-align: center;
+}
+
+nav a {
+    padding: 14px 150px;
+    display: inline-block;
+    color: gray;
+    text-decoration:none;
+}
+
+nav a:hover {
+    background-color: #90a9a6;
+    color:white;
+    text-decoration:none;
+}
+
+.myinfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    background-color: #fff;
+}
+
+.myinfo-content {
+    max-width: 60%; 
+}
+
+.name {
+    font-size: 30px;
+}
+
+.social {
+    display: flex;
+    gap: 50px;
+    color: #444444;
+}
+
+.social a {
+    color: #333;
+    text-decoration: none;
+}
+
+.social img {
+    width: 50px;
+    height: 50px;
+}
+
+.myinfo-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.myinfo-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.parttwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 0px;
+}
+
+.parttwose {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2 {
+    font-weight: bold;
+    margin: 50px;
+}
+
+/*bar*/
+.bar-container.vertical {
+    display: flex;
+    align-items: flex-end;
+    height: 200px;
+    margin: 50px;
+    gap: 10px;
+}
+
+.bar-vertical {
+    background-color: #90a9a6;
+    color: white;
+    font-weight: bolder;
+    margin: 0 10px;
+    width: 50px;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+
+/*skills*/
+.skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    justify-items: center;
+    margin-top: 40px;
+}
+
+.skill {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    gap: 10px;
+}
+
+.chart {
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.experience-section{
+    background-color: #90a9a6;
+    width: 45%;
+    height: 200px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.swipe { 
+    width: 400px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto; 
+}
+
+.swipe ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: calc(400px * 3); 
+    transition: left 0.5s ease-in-out;
+    position: relative;
+    left: 0;
+}
+
+.swipe ul li {
+    list-style: none;
+    width: 400px; 
+    height: 3000px;
+}
+
+.swipe ul li img {
+    width: 100%;
+    height: auto;
+}
+
+.swipe label {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+    display: inline-block;
+    background-color: lightgray;
+    margin: 5px;
+}
+
+.swipe-image {
+    width: 400px; 
+    height: 300px; 
+    background-color: #ccc; 
+    overflow: hidden; 
+}
+
+.swipe .indicators {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#indicator1:checked ~ ul {
+    left: 0;
+}
+
+#indicator2:checked ~ ul {
+    left: -400px;
+}
+
+#indicator3:checked ~ ul {
+    left: -800px;
+}
+
+.swipe input[type="radio"] {
+    display: none;
+}
+
+#indicator1:checked ~ .indicators label[for="indicator1"],
+#indicator2:checked ~ .indicators label[for="indicator2"],
+#indicator3:checked ~ .indicators label[for="indicator3"] {
+    background-color: black;
+}
+
+.works {
+    padding: 50px;
+}
+
+.works h2 {
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.work-item {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+
+}
+
+.work-image {
+    width: 400px; 
+    height: 300px;
+    aspect-ratio: 4 / 3; 
+    background-color: #ccc;
+    overflow: hidden; 
+}
+
+.ppkf {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.ppkf img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.cyhd {
+    width: 300px;
+    height: 370px;
+    overflow: hidden;
+}
+    
+.cyhd img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.work-description {
+    width: calc(100% - 400px);
+    margin-left: 30px;
+}
+
+main:after{
+    display: block;
+    clear:both;
+}
+
+footer{
+    background-color: #90a9a6;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
